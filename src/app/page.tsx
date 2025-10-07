@@ -1,7 +1,13 @@
-import Image from "next/image";
+import HeroSection from "@/app/components/sections/HeroSection";
+import FeaturesSection from "@/app/components/sections/FeaturesSection";
+import SimulationSection from "@/app/components/sections/SimulationSection";
 
 export default function Home() {
   return (
-    <p>1</p>
+    <main>
+      <HeroSection />
+      <FeaturesSection />
+      <SimulationSection />
+    </main>
   );
 }
